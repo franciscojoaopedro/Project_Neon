@@ -1,0 +1,37 @@
+.btn-primary{
+background-color: $brand-yellow;
+color: #855B35;
+transition:  background-color .3s;
+&:hover{
+    background-color: #FFDC5C;
+}
+}
+.btn-secondary{
+border: 1px solid #00A5F0;
+background-color: transparent;
+color: $brand-ight-blue;
+transition: all .3s;
+&:hover{
+    background-color: $brand-ight-blue;
+    color: $withe;
+}
+&.white{
+    border: 1px solid $withe;
+    color: $withe;
+    &:hover{
+        background-color: $withe;
+        color: $brand-green-light;
+    }
+
+}
+}
+
+.btn-primary,.btn-secondary{
+display: inline-block;
+line-height: 4.8rem;
+font-weight: 600;
+font-size: 1.6rem;
+font-family: 'Poppins',sans-serif;
+border-radius: 122px;
+padding: 0 2.6rem;
+}
